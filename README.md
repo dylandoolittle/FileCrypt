@@ -42,6 +42,16 @@ Encrypt a file:
 
 ```bash
 
-python cli.py encrypt input.txt output.enc mypassword
+python cli.py encrypt input.txt output.enc mypassword```
+
+Decrypt a file:
+```bash
+
+python cli.py decrypt input.txt output.enc mypassword```
+
+After successful encryption, you may safely remove the original file manually:
+
+```bash
+rm input.txt```
 
 
